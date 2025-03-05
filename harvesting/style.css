@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(har1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.nav-logo img{
+    float: left;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.nav-logo div{
+    text-align:center;
+    width: 300px;
+    color: white;
+    margin-top: 40px;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family:sans-serif;
+}
+nav ul li button{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+nav ul li button:hover{
+    color: rgb(53, 186, 244);
+}
+nav ul li a:hover{
+    color: rgb(255, 145, 0);
+}
+a{
+    text-decoration: none;
+    color:palevioletred;
+    font-size: 28px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgba(0,0,0,0.4);
+    border-radius: 10px;
+    margin-bottom: 300px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box h2{
+    color: black;
+    font-size: 28px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(237, 208, 171);
+    text-align: center;
+}
+.form-box .input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.form-box .input-box input{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px 0 5px;
+    color: #fff;
+    font-size: 15px;
+}
+i{
+    position: absolute;
+    color: #fff;
+    top: 13px;
+    right: 0;
+}
+input::placeholder{
+    color: #fff;
+
+}
+.btn{
+    color: #020202;
+    background: rgb(237, 208, 171);
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 3px 0 10px rgba(0,0,0,0.5);
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+}
+.group span a{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 500; 
+    font-size: 15px;
+}
+.group a:focus{
+    text-decoration: underline;
+}
+#result{
+    color: rgb(223, 220, 20);
+    font-weight: 200;
+    position: relative;
+    top: 25px;
+}

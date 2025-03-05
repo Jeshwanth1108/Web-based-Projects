@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.full-page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bgimg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.nav-logo img{
+    float: left;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.nav-logo div{
+    text-align:center;
+    width: 300px;
+    color: white;
+    margin-top: 40px;
+}
+th,td{
+    font-size:32px;
+    }
